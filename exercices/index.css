@@ -1,0 +1,50 @@
+@font-face {
+  font-family: titulo;
+  src: url(../fonts/CaviarDreams.ttf);
+}
+
+@font-face {
+  font-family: text;
+  src: url('../fonts/URW Type Foundry - NeuzeitGro-Lig.otf');
+}
+
+#menu, footer{
+  background-color: cornflowerblue;
+  padding: 10px;
+}
+
+a{
+  text-decoration: none !important;
+  color: black !important;
+}
+
+#menu>a{
+  text-decoration: none;
+  color: ghostwhite !important;
+  margin-left: 20px;
+}
+
+h2{
+  padding: 20px;
+  font-family: titulo, Arial, Helvetica, sans-serif;
+}
+
+.content{
+  font-family: text;
+}
+
+.extra-bottom{
+  margin-bottom: 40px;
+}
+
+#exList{
+  list-style-type: none;
+}
+
+li{
+  padding: 10px;
+}
+
+div.center{
+  text-align: center;
+}
